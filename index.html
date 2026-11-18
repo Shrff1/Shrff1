@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact — RepWise</title>
+    <meta name="description" content="Get in touch with RepWise." />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+
+    <header class="nav">
+      <a class="logo" href="index.html">Rep<span>Wise</span></a>
+      <button class="nav-toggle" aria-label="Menu">&#9776;</button>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="exercises.html">Exercises</a>
+        <a href="plans.html">Workout Plans</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <section class="section page-head">
+      <h1>Contact</h1>
+      <p class="muted">Questions, corrections, or requests for new exercises — send a message.</p>
+    </section>
+    <section class="section narrow">
+      <!-- To make this form work, sign up free at formspree.io and replace YOUR-FORM-ID below with your form ID. -->
+      <form class="contact-form" action="https://formspree.io/f/YOUR-FORM-ID" method="POST">
+        <label>Name<input type="text" name="name" required /></label>
+        <label>Email<input type="email" name="email" required /></label>
+        <label>Message<textarea name="message" rows="6" required></textarea></label>
+        <button class="btn" type="submit">Send Message</button>
+      </form>
+      <p class="muted center">Or email directly: <a href="mailto:hello@example.com">hello@example.com</a></p>
+    </section>
+</body>
+</html>
